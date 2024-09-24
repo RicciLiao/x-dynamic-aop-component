@@ -12,6 +12,9 @@
     <name>dynamic-aop</name>
     <description>Dynamic AOP</description>
     <packaging>war</packaging>
+    <properties>
+        <java.version>11</java.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
