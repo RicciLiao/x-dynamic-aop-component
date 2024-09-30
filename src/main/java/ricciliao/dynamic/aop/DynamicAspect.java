@@ -1,4 +1,4 @@
-package dynamic.aop;
+package ricciliao.dynamic.aop;
 
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
@@ -27,7 +27,7 @@ public class DynamicAspect implements MethodInterceptor, MethodBeforeAdvice, Aft
 
     @Override
     public void afterThrowing(Method method, Object[] args, Object target, Exception ex) {
-
+        //do something
     }
 
 }

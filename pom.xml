@@ -7,22 +7,27 @@
         <artifactId>dependencies-control-center</artifactId>
         <version>1.0.0</version>
     </parent>
+
     <artifactId>dynamic-aop</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <name>dynamic-aop</name>
     <description>Dynamic AOP</description>
     <packaging>jar</packaging>
     <properties>
         <java.version>11</java.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aop</artifactId>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>

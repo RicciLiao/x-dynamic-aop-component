@@ -1,4 +1,4 @@
-package dynamic.aop;
+package ricciliao.dynamic.aop;
 
 import org.springframework.aop.aspectj.AspectJExpressionPointcut;
 

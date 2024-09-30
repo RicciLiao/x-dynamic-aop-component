@@ -18,6 +18,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
+import ricciliao.dynamic.aop.DynamicAspect;
+import ricciliao.dynamic.aop.DynamicPointcutAdvisor;
 
 import java.lang.reflect.Method;
 
