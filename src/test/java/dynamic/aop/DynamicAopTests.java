@@ -41,7 +41,7 @@ class DynamicAopTests {
     }
 
     @Test
-    public void dynamicPointcutAdvisorPointA() throws Throwable {
+    void dynamicPointcutAdvisorPointA() throws Throwable {
         boolean arg = true;
         Object[] args = new Object[]{arg};
         Component stComponent = (Component) AopProxyUtils.getSingletonTarget(component);
@@ -65,7 +65,7 @@ class DynamicAopTests {
     }
 
     @Test
-    public void dynamicPointcutAdvisorPointB() throws Throwable {
+    void dynamicPointcutAdvisorPointB() throws Throwable {
         boolean arg = true;
         Object[] args = new Object[]{arg};
         Component stComponent = (Component) AopProxyUtils.getSingletonTarget(component);
