@@ -3,7 +3,6 @@ package dynamic.aop;
 import dynamic.DynamicAopApplication;
 import org.aopalliance.intercept.MethodInvocation;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentMatchers;
@@ -34,11 +33,6 @@ class DynamicAopTests {
     private DynamicPointcutAdvisor dynamicPointcutAdvisorPointA;
     @Autowired
     private DynamicPointcutAdvisor dynamicPointcutAdvisorPointB;
-
-    @BeforeEach
-    public void setUp() {
-
-    }
 
     @Test
     void dynamicPointcutAdvisorPointA() throws Throwable {
