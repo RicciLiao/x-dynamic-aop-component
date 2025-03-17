@@ -1,4 +1,4 @@
-package ricciliao.dynamic.aop;
+package ricciliao.x.aop;
 
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;

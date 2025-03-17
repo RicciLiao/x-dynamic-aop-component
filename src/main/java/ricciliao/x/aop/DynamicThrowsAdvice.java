@@ -1,4 +1,4 @@
-package ricciliao.dynamic.aop;
+package ricciliao.x.aop;
 
 import org.springframework.aop.ThrowsAdvice;
 

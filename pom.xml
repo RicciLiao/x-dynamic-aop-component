@@ -8,9 +8,10 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>dynamic-aop</artifactId>
+    <groupId>ricciliao.x</groupId>
+    <artifactId>dynamic-aop-component</artifactId>
     <version>1.0.0</version>
-    <name>dynamic-aop</name>
+    <name>x-dynamic-aop-component</name>
     <description>Dynamic AOP</description>
     <packaging>jar</packaging>
     <properties>
