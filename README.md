@@ -51,7 +51,7 @@ public class DynamicAspect implements MethodBeforeAdvice, AfterReturningAdvice, 
 }
 ```
 
-Define your aspect class and extends `DynamicAspect.class`.
+Define your aspect class and extends `DynamicAspect.class`, then override the method which you want.
 
 ---
 
